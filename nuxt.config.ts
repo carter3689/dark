@@ -13,6 +13,9 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts'
   ],
   devtools: { enabled: true },
+  devServer: {
+    port: 8000
+  },
   app: {
     head: {
       title: "Ygency - Web Agency Vue NuxtJS Template",

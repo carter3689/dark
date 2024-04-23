@@ -60,8 +60,7 @@
           <div class="menu-btns">
             <!-- menu sidbar -->
             <div class="menu-sidebar">
-              <button @click="toggleSidebar()">
-                <img src="/assets/images/icons/toggler.svg" alt="Toggler" />
+              <button @click="toggleSidebar()" class="far fa-phone">
               </button>
             </div>
           </div>
