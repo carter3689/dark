@@ -6509,7 +6509,7 @@ h6,
 .headline-text>span span {
   opacity: 0.2;
   color: transparent;
-  -webkit-text-stroke: 1px;
+  -webkit-text-stroke: 5px;
   -webkit-text-stroke-color: white;
 }
 
@@ -9438,10 +9438,14 @@ blockquote .blockquote-footer:before {
   -o-transition: 0.25s;
   transition: 0.25s;
   font-weight: 700;
-  color: transparent;
+  color: white;
   margin-bottom: 15px;
-  -webkit-text-stroke: 1px;
+  -webkit-text-stroke: 9px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 0.2);
+}
+
+.counter-item .count-text:hover{
+  color: var(--ygency-primary-color)
 }
 
 @media only screen and (max-width: 375px) {
@@ -13719,6 +13723,12 @@ blockquote .blockquote-footer:before {
 
 .footer-top {
   border-bottom: 1px solid var(--ygency-border-color);
+}
+
+.footer-logo{
+  font-size: 1.8em;
+  color: #ffffff;
+  font-family: 'playfair-display'
 }
 
 .lets-work img {

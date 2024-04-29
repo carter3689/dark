@@ -9,8 +9,7 @@
           <div class="col-lg-4">
             <div class="footer-logo mb-20 wow fadeInRight delay-0-2s">
               <NuxtLink href="/"
-                ><img src="/assets/images/logos/footer-logo.png" alt="Logo"
-              /></NuxtLink>
+                >Nexus Acumen</NuxtLink>
             </div>
           </div>
           <div class="col-lg-8 text-lg-end">
@@ -19,13 +18,7 @@
                 ><i class="fab fa-facebook-f"></i> <span>Facebook</span></a
               >
               <a href="#"
-                ><i class="fab fa-twitter"></i> <span>Twitter</span></a
-              >
-              <a href="#"
-                ><i class="fab fa-dribbble"></i> <span>Dribbble</span></a
-              >
-              <a href="#"
-                ><i class="fab fa-behance"></i> <span>Behance</span></a
+                ><i class="fab fa-linkedin"></i> <span>LinkedIn</span></a
               >
             </div>
           </div>
@@ -39,7 +32,7 @@
                 src="/assets/images/footer/lets-work.png"
                 alt="Let's Work Man"
               />
-              <span>Let’s Work Together</span>
+              <span>Let’s Grow Your Business</span>
             </div>
             <div class="footer-contact-info wow fadeInUp delay-0-3s">
               <a class="theme-btn style-three" href="mailto:support@gmail.com"
@@ -58,18 +51,9 @@
             <h4 class="footer-title wow fadeInUp delay-0-2s">Quick Links</h4>
             <div class="footer-widget widget_nav_menu">
               <ul class="list-style-two wow fadeInUp delay-0-3s">
-                <li><NuxtLink href="about">Home</NuxtLink></li>
-                <li><NuxtLink href="services">Popular Services</NuxtLink></li>
-                <li><NuxtLink href="team">Team Member</NuxtLink></li>
-                <li><NuxtLink href="blog">Latest News</NuxtLink></li>
+                <li><NuxtLink href="about">Hear Our Story</NuxtLink></li>
+                <li><NuxtLink href="pricing">Get Started with Pricing</NuxtLink></li>
                 <li><NuxtLink href="contact">Contact Us?</NuxtLink></li>
-              </ul>
-              <ul class="list-style-two wow fadeInUp delay-0-4s">
-                <li><NuxtLink href="/">UI/UX Design</NuxtLink></li>
-                <li><NuxtLink href="index2">Development</NuxtLink></li>
-                <li><NuxtLink href="index3">Marketing</NuxtLink></li>
-                <li><NuxtLink href="contact">Need a Career</NuxtLink></li>
-                <li><NuxtLink href="faqs">Faqs ?</NuxtLink></li>
               </ul>
             </div>
           </div>
@@ -83,9 +67,8 @@
             >
               <ul>
                 <li><NuxtLink href="about">About</NuxtLink></li>
-                <li><NuxtLink href="services">Services</NuxtLink></li>
-                <li><NuxtLink href="faqs">Faqs</NuxtLink></li>
-                <li><NuxtLink href="services">How IT Works</NuxtLink></li>
+                <li><NuxtLink href="pricing">Pricing</NuxtLink></li>
+                <li><NuxtLink href="contact">Contact</NuxtLink></li>
               </ul>
             </div>
           </div>
@@ -95,7 +78,7 @@
             >
               <p>
                 Copyright @{{ new Date().getFullYear() }},
-                <NuxtLink href="/">Ygency</NuxtLink> All Rights Reserved
+                <NuxtLink href="/">Nexus Acumen</NuxtLink> All Rights Reserved
               </p>
             </div>
           </div>
